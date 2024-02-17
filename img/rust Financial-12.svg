@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.14 32.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-family: Colosseum-ExtraBold, Colosseum;
+        font-size: 23.06px;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #f7a21c;
+      }
+
+      .cls-5 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-1" points="14.8 21.42 22.07 30.53 36.9 30.53 51.81 12.39 36.9 12.39 29.51 21.43 22.29 12.32 14.8 21.42"/>
+    <polygon class="cls-2" points="37.01 9.1 29.74 0 14.9 0 0 18.14 14.9 18.14 22.3 9.09 29.52 18.21 37.01 9.1"/>
+  </g>
+  <text class="cls-3" transform="translate(56.75 27.57)"><tspan class="cls-4" x="0" y="0">TRUST</tspan><tspan class="cls-5" x="71.4" y="0" xml:space="preserve"> FINANCIAL</tspan></text>
+</svg>

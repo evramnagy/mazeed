@@ -1,0 +1,61 @@
+$flaticon_ss-font: "flaticon_ss";
+
+@font-face {
+    font-family: $flaticon_ss-font;
+    src: url("./flaticon_ss.woff2?d4347ef8bc3de362edb065fb16828c22") format("woff2"),
+url("./flaticon_ss.woff?d4347ef8bc3de362edb065fb16828c22") format("woff"),
+url("./flaticon_ss.eot?d4347ef8bc3de362edb065fb16828c22#iefix") format("embedded-opentype"),
+url("./flaticon_ss.ttf?d4347ef8bc3de362edb065fb16828c22") format("truetype"),
+url("./flaticon_ss.svg?d4347ef8bc3de362edb065fb16828c22#flaticon_ss") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ss !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_ss-map: (
+    "bill": "\f101",
+    "data-transfer": "\f102",
+    "maps-and-flags": "\f103",
+    "telephone-call": "\f104",
+    "whatsapp": "\f105",
+    "email": "\f106",
+    "facebook-app-symbol": "\f107",
+    "instagram": "\f108",
+    "twitter": "\f109",
+);
+
+.flaticon-bill:before {
+    content: map-get($flaticon_ss-map, "bill");
+}
+.flaticon-data-transfer:before {
+    content: map-get($flaticon_ss-map, "data-transfer");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon_ss-map, "maps-and-flags");
+}
+.flaticon-telephone-call:before {
+    content: map-get($flaticon_ss-map, "telephone-call");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon_ss-map, "whatsapp");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_ss-map, "email");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon_ss-map, "facebook-app-symbol");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_ss-map, "instagram");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_ss-map, "twitter");
+}
